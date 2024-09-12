@@ -1,9 +1,8 @@
 $(document).ready(function(){
-    $('.havChild').mouseenter(function(){
-        $('.dropdown').fadeIn();       
+    $('#menu-toggle').click(function(){
+        $('#mobile-menu').toggleClass('show');
+    })
+    $('#menuClose').click(function(){
+        $('#mobile-menu').removeClass('show')
     });
-    $('.havChild').mouseleave(function(){
-        $('.dropdown').fadeOut();
-        $(this).hidden();       
-    });
-});
+  });
