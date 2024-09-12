@@ -369,7 +369,7 @@ p {
 	padding: 20px;
         }
 	.commenhead, .subhead {
-		margin: 10px;
+		margin: 10px 0;
 	}
 
 }
