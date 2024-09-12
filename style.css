@@ -164,7 +164,7 @@ aside {
 	font-size: 16px;
 	padding: 10px;
 	padding-left: 35px;
-	transition: all .3s ease-in-out;
+	transition: all .6s ease-in-out;
 }
 
 .liActive {
@@ -332,7 +332,7 @@ p {
 		opacity: 0;
 		overflow: hidden;
 		transform: translatex(100%);
-		transition: all 0.3s ease-in-out;
+		transition: all 0.6s ease-in-out;
 		visibility: hidden;
 	}
 
