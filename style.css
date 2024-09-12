@@ -368,5 +368,8 @@ p {
 	.pageSide {
 	padding: 20px;
         }
+	.commenhead, .subhead {
+		margin: auto;
+	}
 
 }
