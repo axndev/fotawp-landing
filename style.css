@@ -355,6 +355,7 @@ p {
 		flex-direction: column-reverse;
 	}
 	.pageSide img {
+		margin-top: 280px;
 		opacity: .4;
 		width: 300px;
 		height: auto;
