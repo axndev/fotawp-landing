@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    $('.havChild').mouseenter(function(){
+        $('.dropdown').fadeIn();       
+    });
+    $('.havChild').mouseleave(function(){
+        $('.dropdown').fadeOut();
+        $(this).hidden();       
+    });
+});

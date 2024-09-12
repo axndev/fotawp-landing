@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+	font-family: "Montserrat", sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: url(images/bg.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+.dFlex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flexCol {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.dGrid {
+	display: grid;
+}
+
+ul {
+	padding: 0;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+.prbtn{
+	color: white;
+	background: rgb(0, 183, 255);
+	border: none;
+	outline: none;
+	font-weight: 300;
+	font-size: 15px;
+	padding: 10px 25px;
+	font-family: "Montserrat", sans-serif;
+	cursor: pointer;	
+}
+.srbtn{
+	color: white;
+	background-color: #c1c1c12e;
+	border: none;
+	outline: none;
+	font-weight: 300;
+	font-size: 15px;
+	padding: 10px 25px;
+	font-family: "Montserrat", sans-serif;
+	cursor: pointer;	
+}
+.btng{
+	display: flex;
+	gap: 17px;
+}
+.aboutPage {
+	width: 100vw;
+	height: 100vh;
+}
+
+.main {
+	height: 80%;
+	width: 80%;
+	margin: auto;
+	background: rgba(255, 255, 255, 0);
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5.6px);
+	-webkit-backdrop-filter: blur(5.6px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	display: flex;
+}
+
+aside {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	overflow: hidden;
+	height: auto;
+	width: 15%;
+
+}
+
+.pfp img {
+	border-radius: 50%;
+}
+
+.sideNav {
+	margin-top: 40px;
+}
+
+.sideNav {
+	align-items: start;
+}
+
+.sideNav a {
+	width: 100%;
+	font-size: 16px;
+	padding: 10px;
+	padding-left: 35px;
+	transition: all .3s ease-in-out;
+}
+
+.liActive {
+	color: rgb(0, 183, 255);
+	border-left: 5px solid rgb(0, 183, 255);
+}
+
+.sideNav a:hover {
+	background-color: #c1c1c12e;
+}
+
+aside .col1 {
+	padding-top: 50px;
+}
+
+.social {
+	gap: 12px;
+	padding-bottom: 15px;
+}
+
+.social i {
+	cursor: pointer;
+	font-size: 15px;
+	color: white;
+	opacity: .3;
+}
+
+.pageSide {
+	height: auto;
+	width: 85%;
+	padding: 20px 0px 0px 30px;
+	background-color: #2b2b2b34;
+}
+
+.pageContent {
+	color: white;
+	width: 50%;
+}
+span{
+	color: rgb(0, 183, 255);
+	font-weight: 800;
+}
+.pageHe {
+	font-size: 25px;
+	color: white;
+	font-weight: 400;
+	border-bottom: 1px solid rgb(0, 183, 255);
+	width: fit-content;
+	padding: 5px;
+}
+
+.commenhead {
+	font-size: 45px;
+	font-weight: 400;
+	margin: 0;
+}
+p{
+	color: lightgray;
+	font-size: 20px ;
+}
+.subhead{
+	color: rgb(0, 183, 255);
+	font-size: 25px ;
+	margin: 0;
+	font-weight: 500;
+}
+.logos{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-top: 20px;
+}
+.textg{
+	align-items: center;
+	display: flex;
+	color: rgb(0, 183, 255);
+	gap: 40px;
+}
+.textg p{
+	font-size: 14px;
+	color: rgb(0, 183, 255);
+	width: 20px;
+}
+.textg span{
+	font-size: 35px;
+	font-weight: 100;
+}
+.logos i{
+	font-size: 20px;
+	opacity: .3;
+}
+.quote{
+	margin-top: 25px;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+.quote p{
+	font-size: 17px;
+	color: lightgray;
+}
+.quote i{
+	font-size: 	36px;
+	opacity: .2;
+}
+.pageSide img{
+	opacity: .4;
+	width: auto;
+}
+
+/* Responsivenss */
+
+
+@media (max-width:1080px) {
+	.pageSide img{
+		opacity: .4;
+		width: 400px;
+		height: auto;
+	}
+}
