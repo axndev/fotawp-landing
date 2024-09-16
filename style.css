@@ -1332,7 +1332,8 @@ footer .col2 a:hover {
 		grid-template-columns: 1fr;
 	}
 	.aboutSection .container .dGrid {
-	grid-template-columns: 1fr;
+		grid-template-columns: 1fr;
+		gap: 5rem;
 	}
 	.consult .container {
 		padding: 3rem;
