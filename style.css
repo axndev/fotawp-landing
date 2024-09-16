@@ -1354,7 +1354,8 @@ footer .col2 a:hover {
 	.testimonial .container .heading,
 	.faq .container .heading,
 	.contact .container .col2 .heading,
-	.portfolio .dGrid .col1 .heading{
+	.portfolio .dGrid .col1 .heading,
+	.aboutSection .content .heading{
 	font-size: 3.5rem !important;
 	}
 
