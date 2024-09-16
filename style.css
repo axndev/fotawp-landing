@@ -206,7 +206,8 @@ a {
 .header {
 	padding: 4rem 9rem;
 	justify-content: space-between;
-	position: absolute;
+	position: fixed;
+	transition: background-color 0.3s ease;
 	top: 0;
 	left: 0;
 	min-width: 100%;
