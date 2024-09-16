@@ -1344,7 +1344,7 @@ footer .col2 a:hover {
 		flex-wrap: wrap;
 	}
 	.heroSection .content h1{
-		font-sixe: 4.5rem;
+		font-size: 4.5rem;
 	}
 	.features .container .heading,
 	.services .container .heading,
@@ -1353,7 +1353,7 @@ footer .col2 a:hover {
 	.pricing .container .heading,
 	.testimonial .container .heading,
 	.faq .container .heading {
-	font-size: 3.5rem;
+	font-size: 3.5rem !important;
 	}
 
 }
