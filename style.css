@@ -1352,7 +1352,9 @@ footer .col2 a:hover {
 	.team .container .heading,
 	.pricing .container .heading,
 	.testimonial .container .heading,
-	.faq .container .heading {
+	.faq .container .heading,
+	.contact .container .col2 .heading,
+	.portfolio .dGrid .col1 .heading{
 	font-size: 3.5rem !important;
 	}
 
