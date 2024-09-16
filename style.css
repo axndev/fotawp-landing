@@ -1339,6 +1339,22 @@ footer .col2 a:hover {
 	.consult .container .content{
 		max-width: 100%;
 	}
+	.btng{
+		flex-wrap: wrap;
+	}
+	.heroSection .content h1{
+		font-sixe: 4.5rem;
+	}
+	.features .container .heading,
+	.services .container .heading,
+	.proSec .container .heading,
+	.team .container .heading,
+	.pricing .container .heading,
+	.testimonial .container .heading,
+	.faq .container .heading {
+	font-size: 3.5rem;
+	}
+
 }
 @media (max-width:666px) {
 	.portfolioSec .dGrid{
