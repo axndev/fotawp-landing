@@ -243,6 +243,7 @@ a {
   #mobile-menu.show {
 	max-height: 100vh;
 	opacity: 1;
+ width: 100%;
 	transform: translatex(0);
 	visibility: visible;
 	position: fixed;
